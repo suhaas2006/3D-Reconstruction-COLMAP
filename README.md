@@ -1,5 +1,9 @@
 # 🚀 3D Reconstruction using COLMAP
 
+> ⚡ Built a complete 3D reconstruction pipeline using multi-view geometry and COLMAP, converting 2D images into a high-quality 3D model.
+
+---
+
 ## 🔍 Problem
 Reconstruct a 3D model of a real-world object from multiple 2D images captured at different viewpoints.
 
@@ -92,10 +96,16 @@ Reconstruct a 3D model of a real-world object from multiple 2D images captured a
 
 ## 🚀 Future Improvements
 
-- Compare SIFT vs ORB  
-- Apply noise filtering (Open3D)  
-- Optimize runtime  
-- Explore NeRF-based methods  
+- Compare SIFT vs ORB for feature extraction  
+- Apply noise filtering using Open3D  
+- Optimize reconstruction time  
+
+### 🏥 Medical Imaging Extension (Future Work)
+
+- Extend this pipeline toward **3D reconstruction in medical imaging**
+- Implement **3D volume reconstruction from CT scan (DICOM) slices**
+- Explore reconstruction from multiple X-ray views (research direction)
+- Investigate learning-based approaches such as NeRF for medical data  
 
 ---
 
@@ -109,4 +119,4 @@ Reconstruct a 3D model of a real-world object from multiple 2D images captured a
 
 ## 📌 Summary
 
-End-to-end implementation of a **multi-view 3D reconstruction pipeline**, demonstrating how 2D images can be transformed into accurate 3D geometry.
+End-to-end implementation of a **multi-view 3D reconstruction pipeline**, demonstrating how 2D images can be transformed into accurate 3D geometry, with future scope toward medical imaging applications.
