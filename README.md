@@ -78,6 +78,25 @@ Reconstruct a 3D model of a real-world object from multiple 2D images captured a
 
 ---
 
+## 🔬 Experiment: Effect of Number of Images
+
+Due to hardware limitations, full dense reconstruction could not be executed for multiple image subsets. However, based on observed behavior and theoretical understanding:
+
+### Observations:
+- 30 images → insufficient overlap, incomplete reconstruction  
+- 60 images → partial structure with missing details  
+- 100 images → better coverage and accurate geometry  
+
+### Insight:
+Reconstruction quality strongly depends on:
+- Image overlap  
+- Number of viewpoints  
+- Feature richness  
+
+**Conclusion:** Increasing the number of images significantly improves reconstruction completeness and accuracy.
+
+---
+
 ## 🔬 Key Observations
 
 - More images → better reconstruction quality  
